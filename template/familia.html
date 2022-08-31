@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Familia</title>
+</head>
+<body>
+    
+    <h3> Familiares: </h3>
+
+    <p>
+        {% for n in lista %}
+        Nombre: {{n.nombre}}, Apellido: {{n.apellido}}, Edad: {{n.edad}}, Fecha de Ingreso: {{n.fecha_ingreso}}
+        <br>
+        {% endfor %}
+    </p>
+
+</body>
+</html>
